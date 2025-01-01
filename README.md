@@ -35,10 +35,21 @@ and your changes should appear on your T-Panel display.
 
 This project was created to help you get started with SquareLine Studio
 and PlatformIO for the LilyGo T-Panel. I could not find any guides
-for that particular combination and I found it difficult to get started.
+for that particular combination and found it difficult to get started.
 
-This project was derived from https://github.com/Xinyuan-LilyGO/T-Panel
+This project was derived from the [LilyGo T-Panel repo](https://github.com/Xinyuan-LilyGO/T-Panel)
 with the addition of a simple example SquareLine Studio project.
 
 If you see any errors or have any suggestions please raise an issue
 in github.
+
+## Future Work
+
+Replace the Arduino_GFX source library with a lib_deps reference. This can
+not be done trivially as there appears to be modifications to the library
+as obtained from the [LilyGo T-Panel repo](https://github.com/Xinyuan-LilyGO/T-Panel).
+
+Replace the TouchLib source library with a lib_deps reference, if possible.
+The current library was obtained from the [LilyGo T-Panel repo](https://github.com/Xinyuan-LilyGO/T-Panel)
+but I can't find a corresponding one in the PlatformIO libraries.
+This library may be the source: https://github.com/mjdonders/CST816_TouchLib
