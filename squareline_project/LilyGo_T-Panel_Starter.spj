@@ -3937,7 +3937,7 @@
     "theme_dark": true,
     "theme_color1": 5,
     "theme_color2": 0,
-    "uiExportFolderPath": "/Users/jay/esp/projects/squareline_lilygo_t_panel_starter/src/ui",
+    "uiExportFolderPath": "",
     "projectExportFolderPath": "",
     "custom_variable_prefix": "uic",
     "backup_cnt": 6,
